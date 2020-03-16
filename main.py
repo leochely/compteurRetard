@@ -1,4 +1,4 @@
-from AccountScraper import AccountScraper
+from accountScraper import AccountScraper
 
-account = TwitterSNCF()
+account = AccountScraper("RERB")
 account.scrap()
