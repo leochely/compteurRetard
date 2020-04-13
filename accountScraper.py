@@ -25,7 +25,7 @@ class AccountScraper:
         #     last_scrap = "2006-01-01"
 
         tweetCriteria = got.manager.TweetCriteria().setUsername("RERB")\
-            .setSince("2015-09-10")\
+            .setSince("2019-09-10")\
             .setEmoji("unicode")
 
         tweets = got.manager.TweetManager.getTweets(tweetCriteria)
